@@ -1,0 +1,39 @@
+/* app font */
+#app {
+  font-family: NotoSansLaoUI-Regular, Roboto-Regular;
+}
+
+/* sweetalert font */
+.swal2-content,
+.swal2-title,
+.swal2-confirm,
+.swal2-cancel {
+  font-family: NotoSansLaoUI-Regular, Roboto-Regular;
+}
+
+/* import font */
+@font-face {
+  font-family: 'NotoSansLaoUI-Regular';
+  src: url(~assets/fonts/NotoSansLaoUI-Regular.ttf) format('truetype');
+}
+
+/* import font */
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(~assets/fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+/* click cursor for image */
+.pointer-cursor {
+  cursor: pointer;
+}
+
+/* hover for image */
+.hover:hover {
+  transform: scale(1.2);
+}
+
+.primary-gradient {
+  background: rgb(0,70,36);
+  background: linear-gradient(90deg, rgba(0,70,36,1) 35%, rgba(1,207,106,1) 100%);
+}
